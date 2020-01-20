@@ -18,7 +18,7 @@ for (i = 15; i <= 25; i++) {
    Call outerFunction and pass in the innerFunction variable. */
    
    
-   function (sentence) {
+   function number1 (sentence) {
        var innerFunction = "I am a function";
    
      }
