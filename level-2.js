@@ -20,8 +20,8 @@ function innerFunction() {
   console.log("I am a function");
 }
 
-function outerFunction() {
-  console.log(window.innerFunction);
+function outerFunction(value) {
+  value();
 }
 
-innerFunction();
+outerFunction(innerFunction);
