@@ -109,4 +109,3 @@ function sportType(type) {
 sportType("football");
 
 console.log(sports);
-
