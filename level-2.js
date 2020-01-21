@@ -16,12 +16,12 @@ for (i = 15; i <= 25; i++) {
    Inside outerFunction, call the argument like you would a function - with parenthesis ().
    Call outerFunction and pass in the innerFunction variable. */
 
-function innerFunction() {
+var innerFunction = function() {
   console.log("I am a function");
-}
+};
 
-function outerFunction(value) {
-  value();
+function outerFunction(arg) {
+  arg();
 }
 
 outerFunction(innerFunction);
